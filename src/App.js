@@ -34,7 +34,7 @@ function App() {
       </header>
       <main className='bg-dark LandingPage-main'>
       <section className="forms-section">
-        <h1 className="section-title">Animated Forms</h1>
+        <h1 className="section-title">Stime</h1>
         <div className="forms">
           <div className="form-wrapper is-active">
             <button type="button" className="switcher switcher-login">
