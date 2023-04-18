@@ -32,7 +32,7 @@ function App() {
           </a>
         </nav>
       </header>
-      <main className='bg-dark LandingPage-main'>
+      <main className='LandingPage-main'>
       <section className="forms-section">
         <h1 className="section-title">Stime</h1>
         <div className="forms">
