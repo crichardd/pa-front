@@ -19,18 +19,52 @@
 	font-size: 70px;
 }
 
-.owText {
-	text-align: center;
-	-webkit-text-stroke: 2px white;
-	position: relative;
-	text-transform: uppercase;
-	color: #252527;
-	font-size: 14vw;
-	letter-spacing: 1.2vw;
-	font-weight: 700px;
-	text-shadow: 0 0.5px 0 #4a4a4e, /*main 3d shadow*/ -0.5px -0.5px 0 #4a4a4e, -0.5px 0px 0 #343437, -1px 0.5px 0 #343437, -1.5px 1px 0 #313134, -2px 1.5px 0 #2f2f31, -2.5px 2px 0 #2c2c2f, -3px 2.5px 0 #2a2a2c, -3.5px 3px 0 #27272a, -4px 3.5px 0 #252527, -4.5px 4px 0 #232324, -5px 4.5px 0 #202022, -5.5px 5px 0 #1e1e1f, -6px 5.5px 0 #1b1b1d, -6.5px 6px 0 #19191a, -7px 6.5px 0 #161617, -7.5px 7px 0 #141415, -8px 7.5px 0 #111112, /*top right*/ 0 -0.5px 1px white, 0 -1px 0px white, /*bottom left corner*/ -7.5px 7px 0px white, -8px 7.5px 0px
-}  
+@font-face {
+	font-family: 'Rocher';
+	src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
   
+.titleMain {
+	font-family: 'Rocher';
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  h1 {
+	margin: 0;
+  }
+  
+  @font-palette-values --Grays {
+	font-family: Rocher;
+	base-palette: 9;
+  }
+  
+  @font-palette-values --Purples {
+	font-family: Rocher;
+	base-palette: 6;
+  }
+  
+  @font-palette-values --Mint {
+	font-family: Rocher;
+	base-palette: 7;
+  }
+  
+  .grays {
+	font-palette: --Grays;
+  }
+  
+  .purples {
+	font-palette: --Purples;
+  }
+  
+  .mint {
+	font-palette: --Mint;
+  }
+
 *,
 *::before,
 *::after {
@@ -307,7 +341,7 @@ body {
 
 .btn-login {
 	color: #fbfdff;
-	background: #a7e245;
+	background: #55ced0;
 	transform: translateX(-30%);
 }
 
