@@ -5,49 +5,33 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-  height: 50px;
+  font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNDQ0NBw0HBwgNBw0HDQcHBw8ICQcNFREWFhURExUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrNysrKystKysrKy0rKzcrKy0tKysrKysrKy0tKy0tKysrKysrKysrKysrKysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAgAGB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABkBAQEBAQEBAAAAAAAAAAAAAAIBBgUAA//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIRAxEAPwDzxmZtnzZmLzzQsRKGGCKiUoYY0VBONDGInDC0MGlDDGioNONDGkVBpRoYyohRoqCKgnGioIqDTjGNDBOQxUEVBpRoqCKgnI0VBFQacMLESjkWZncZllQQosJjQwThhjQwaUMUIqIcaKgihKNDGhg04YYyoNKNFQRQnGioFQaUjKgioNONCxgnIYqCKiUo0VGMGnGio0I05DDGhg04YWhEpHHkKjuMuxYxDhhjQwaUMVBFDTjKgioJyNDGioNKNFQQwacMVBFRCjKgioJRoqCKgnGioFQacjQxoqCcaKjSEaUaKgioJyNFSNDBpwwxoUKQwscE446KgLuMvDDGiolONDGipBpRoYyhORooRUGlGioIoacZUEVBpRoqCKgnGioIqDSjRUaFKcaKgioJyNFQRUGlIYY0ME4YY0hg04YY0VBONFQQwaUMUIoTkcaYxjusvDIY0VBpRooRUE40VBFRKcaKgioJRoqCKg040VBFQSjRUEUNORoqNIYJRoqBUE5GioIqJThhjQhSkMMaFKchioIqCcaKEVBONFQRUGlGVgihOONioIqO7WXjRUEUJRoqCKg05GVBFQaUaKEVBONFRoRKNFRoYlOGGNDBpQwxjBORoqCKgnGkVGhg05CY0MGlIYqCKg040VBFQTjRUEVINKNFMYNOGERSHHGxUEVHcrLQwwRUQ5GigqDTjKgihKNFQSKgnDDGhEoYWhgnDDGI0o0VBFRDkMMjQwachMaGCUhhjRUGnGioIqCcaKEVBpxoqNDBpSNFRoYJyGFpChyONimhjuMtGioIqCcaKEVBpRoqCKiU4YY0MEoYY0MGnIYY0MEoTGhgnIYY0MGnDDGhgnDDGiolKRoqCKgHGioFRKcaKjSGDSkJgioJyGGNDBpyGFiJyONio0Md1loyoIqDSjRTQwacMMaGCUMLQxKchMaGCcMMaGDSkaKjQyCcMVBFQacjQxoqCcjRUEVBpRoqCKgnI0VBFSDThkLGCUhMaGIcMLQwachhaQicjjoYxjustI0VBFDSjRUaGCcMMaGCUMMYwacMLQjSkMMaGCchioIqJTkZUgioJyNFQRUGlGioIqCcjRUEVBpwwxoYNOQwxoYJQxUEihpyNDGipBpyNDjRSHI42GNDHcZWGGNDBpwwxjEKGGNDBOQxUEMEoTGME5DDI0VBpxooKgnI0VBFQacjSKgioJSNFRoYlORoqNCNOQmRoYJSGKkEVBpyNDGVBpyNIoKg05GihFYJyONhEVHdrKwwxoYNOGGNDBpQqkEMSnDCxg0oYZGME4YoQwacMVBFQacaKgioNKGGCKgnGipAqCcMMYwacMMaGDShioClOGKgioNONFQRUE40UIoSkf/Z) no-repeat center center fixed;
+  background-size: cover;
+  height: 80px;
 }
 
 .LandingPage-main{
   min-height: 100vh;
 }
 
-@font-face {
-	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/TINY5x3GX.woff2');
-	font-family:'TINY 5x3';
-	font-style: normal;
-	font-weight: 20 300;
-}
-
-h1 {
-	--axis: 20;
-
-	color: #fefefe;
-	font-family:'TINY 5x3';
-	font-weight: var(--axis);	
-	text-shadow: -1px -1px 0 rgba(#fff, .4), 1px -1px 0 rgba(#fff, .4), -1px 1px 0 rgba(#fff, .4), 1px 1px 0 rgba(#fff, .4), 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+.App-header h1 {
+	font-size: 70px;
 }
 
 
-h1 {
-	display: inline-block;
+.owText {
 	text-align: center;
-	letter-spacing: 0.6rem;
-	line-height: 1;	
-	margin: 0;
-	font-size: 200px;
+	-webkit-text-stroke: 2px white;
 	position: relative;
 	text-transform: uppercase;
-}
-
-.stimeText{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
-}
+	color: #252527;
+	font-size: 14vw;
+	letter-spacing: 1.2vw;
+	font-weight: 700px;
+	text-shadow: 0 0.5px 0 #4a4a4e, /*main 3d shadow*/ -0.5px -0.5px 0 #4a4a4e, -0.5px 0px 0 #343437, -1px 0.5px 0 #343437, -1.5px 1px 0 #313134, -2px 1.5px 0 #2f2f31, -2.5px 2px 0 #2c2c2f, -3px 2.5px 0 #2a2a2c, -3.5px 3px 0 #27272a, -4px 3.5px 0 #252527, -4.5px 4px 0 #232324, -5px 4.5px 0 #202022, -5.5px 5px 0 #1e1e1f, -6px 5.5px 0 #1b1b1d, -6.5px 6px 0 #19191a, -7px 6.5px 0 #161617, -7.5px 7px 0 #141415, -8px 7.5px 0 #111112, /*top right*/ 0 -0.5px 1px white, 0 -1px 0px white, /*bottom left corner*/ -7.5px 7px 0px white, -8px 7.5px 0px
+}  
+  
 *,
 *::before,
 *::after {

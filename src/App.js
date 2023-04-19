@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState} from 'react';
-import { AmbientLightSensor } from 'AmbientLightSensor';
-import fluidAxisVariation from 'fluidAxisVariation';
 
 
 function App() {
@@ -16,6 +13,7 @@ function App() {
     console.log(`Pseudo: ${pseudo}, Email: ${email}, Mot de passe: ${password}`);
   }
 
+
   //animation signIn signUp
   const switchers = [...document.querySelectorAll('.switcher')]
 
@@ -26,38 +24,11 @@ function App() {
     })
   })
 
-  //animation texte stime
-  var text = document.querySelector("h1");
 
-  text.addEventListener("input", function() {
-    this.setAttribute("data-text", this.innerText);
-  });
-
-  const minAxisValue = 300;
-  const maxAxisValue = 20;
-
-  const minEventValue = 0;
-  const maxEventValue = 1000;
-
-  text.style.setProperty("--axis", 20);
-
-  if ( 'AmbientLightSensor' in window ) {
-    const sensor = new AmbientLightSensor();
-    sensor.onreading = () => {
-      
-    fluidAxisVariation(minAxisValue, maxAxisValue, minEventValue, maxEventValue, sensor.illuminance, "--axis", text);
-      
-      // console.log('Current light level:', sensor.illuminance);
-    };
-    sensor.onerror = (event) => {
-      console.log(event.error.name, event.error.message);
-    };
-    sensor.start();
-  }
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='stimeText'><h1>Stime</h1> </div>
+      <header className="App-header bg-light">
+        <div className='owText text-center'><h1>Stime</h1> </div>
       </header>
       <main className='LandingPage-main'>
         <section className="forms-section">
