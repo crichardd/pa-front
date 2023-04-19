@@ -13,7 +13,6 @@ function App() {
     console.log(`Pseudo: ${pseudo}, Email: ${email}, Mot de passe: ${password}`);
   }
 
-
   //animation signIn signUp
   const switchers = [...document.querySelectorAll('.switcher')]
 
@@ -23,7 +22,6 @@ function App() {
       this.parentElement.classList.add('is-active')
     })
   })
-
 
   return (
     <div className="App">
