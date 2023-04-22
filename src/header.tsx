@@ -9,7 +9,7 @@ function Header({ connect }: { connect: boolean }){
     const location = useLocation();
 
     function handleFriends() {
-        navigate("/AddUser");
+        navigate("/Friends");
     }
     function handleMessages() {
         navigate("/Message");
