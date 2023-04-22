@@ -15,7 +15,7 @@ function Header({ connect }: { connect: boolean }){
         navigate("/Message");
     }
     function handleProfil() {
-        navigate("/Profil");
+        navigate("/User");
     }
     function handleLandingPage() {
         navigate("/LandingPage");

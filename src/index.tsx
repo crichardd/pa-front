@@ -8,7 +8,7 @@ import Login from './Login';
 import LandingPage from './LandingPage';
 import App from './App';
 import './index.css';
-import Profil from './Profil';
+import User from './User';
 import Message from './Message';
 import Friends from './Friends';
 
@@ -25,7 +25,7 @@ root.render(
         <Route path='/landingpage' element={<LandingPage/>}></Route>
         <Route path='/Friends' element={<Friends/>}></Route>
         <Route path='/Message' element={<Message/>}></Route>
-        <Route path='/Profil' element={<Profil/>}></Route>
+        <Route path='/User' element={<User/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

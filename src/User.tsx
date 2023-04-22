@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./header";
 
-function Profil() {
+function User() {
   
 
 
@@ -16,4 +16,4 @@ function Profil() {
   );
 }
 
-export default Profil;
+export default User;
