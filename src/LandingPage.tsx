@@ -9,7 +9,7 @@ function LandingPage() {
 
   return (
     <div className="App">
-      <Header/>
+      <Header connect={true}/>
       <main className='LandingPage-main bg-dark'>
      
       </main>
