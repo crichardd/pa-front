@@ -10,6 +10,14 @@
     backdrop-filter: blur(10px);
     transition: 0.5s ease-in-out;
   }
+
+.card-Main{
+    position : relative;
+}
+
+.main-friends {
+    margin-top: 100px; /* ajustez la valeur en fonction de la hauteur de votre Header */
+}
   
   .card:hover {
     cursor: pointer;

@@ -1,6 +1,6 @@
 function CardFriends(){
     return (
-        <div>
+        <div >
           <div className="card">
             <div className="img"></div>
               <div className="textBox">
@@ -16,5 +16,6 @@ function CardFriends(){
         </div>
     );
 }
+
 
 export default CardFriends;
