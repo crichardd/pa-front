@@ -1,4 +1,7 @@
+import { Card } from "react-bootstrap";
 import Header from "./header";
+import CardFriends from "./componnents/CardFriends";
+
 
 function Friends() {
   
@@ -6,8 +9,8 @@ function Friends() {
     return (
         <div className="App">
             <Header connect={true}/>
-            <main className='LandingPage-main bg-dark'>
-            
+            <main>
+                <CardFriends/>
             </main>
         </div>
     );
