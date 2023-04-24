@@ -5,10 +5,9 @@ function CardFriends(){
             <div className="img"></div>
               <div className="textBox">
                 <div className="textContent">
-                  <p className="h1">Clans of Clash</p>
-                  <span className="span">12 min ago</span>
+                  <p className="h1">Pierre</p>
                 </div>
-                <p className="p">Xhattmahs is not attacking your base!</p>
+                <p className="p">1000 points</p>
               <div>
               </div>
             </div>
