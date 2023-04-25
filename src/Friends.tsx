@@ -7,6 +7,7 @@ function Friends() {
   
 
     return (
+        
         <div className="App">
             <div>
                 <Header connect={true}/>
